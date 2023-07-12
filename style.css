@@ -1,0 +1,46 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+
+.container
+{
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.896);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.clock
+{
+    color: white;
+    font-size: 4rem;
+    padding: 3rem;
+}
+
+button
+{
+   padding: 1.5rem;  /* 1 rem =16px */
+    width: 200px;
+    border-radius: 50px;
+    background-color: antiquewhite;
+    margin: 30px;
+    border: none;
+    cursor: pointer;
+    font: 100 1.5rem sans-serif;
+}
+
+#hello
+{
+    text-align: center;
+}
+
+button:hover
+{
+    color: antiquewhite;
+    background-color: rgba(0, 0, 0, 0.789);
+}
